@@ -46,7 +46,11 @@ CREATE TABLE `alumnus_bio` (
 --
 
 INSERT INTO `alumnus_bio` (`id`, `firstname`, `middlename`, `lastname`, `gender`, `batch`, `course_id`, `email`, `connected_to`, `avatar`, `status`, `date_created`) VALUES
+<<<<<<< HEAD
 (2, 'Name', 'of', 'alumini', 'Male', 2009, 1, 'alumini@sample.com', 'My Company', '1602730260_avatar.jpg', 1, '2020-10-15');
+=======
+(2, 'Name', 'Of', 'alumini', 'Male', 2009, 1, 'alumini@sample.com', 'My Company', '1602730260_avatar.jpg', 1, '2020-10-15');
+>>>>>>> b2148bf2faf26d54ee8a0c848260e4baaa701946
 
 -- --------------------------------------------------------
 
@@ -245,7 +249,11 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`id`, `name`, `username`, `password`, `type`, `auto_generated_pass`, `alumnus_id`) VALUES
 (1, 'Admin', 'admin', '0192023a7bbd73250516f069df18b500', 1, '', 0),
+<<<<<<< HEAD
 (3, 'Name alumini', 'malumini@sample.com', '3cc93e9a6741d8b40460457139cf8ced', 3, '', 2);
+=======
+(3, 'Alumini Name', 'alunini@sample.com', '3cc93e9a6741d8b40460457139cf8ced', 3, '', 2);
+>>>>>>> b2148bf2faf26d54ee8a0c848260e4baaa701946
 
 --
 -- Indexes for dumped tables
