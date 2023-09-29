@@ -185,6 +185,7 @@ a.jqte_tool_label.unselectable {
                 </div>
             </div>
             <br>
+            <!-- Project made by in footer -->
             <div class="container"><div class="small text-center text-muted"> <?php echo $_SESSION['system']['name'] ?> | <a href="https://kalaskarpranav21.github.io/Peronal_Portfolio/" target="_blank">Made By Pranav Kalaskar</a></div></div>
         </footer>
         
