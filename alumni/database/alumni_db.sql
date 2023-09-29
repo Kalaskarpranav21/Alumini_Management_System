@@ -3,7 +3,6 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 16, 2020 at 05:17 AM
 -- Server version: 10.4.14-MariaDB
 -- PHP Version: 7.2.33
 
@@ -47,7 +46,7 @@ CREATE TABLE `alumnus_bio` (
 --
 
 INSERT INTO `alumnus_bio` (`id`, `firstname`, `middlename`, `lastname`, `gender`, `batch`, `course_id`, `email`, `connected_to`, `avatar`, `status`, `date_created`) VALUES
-(2, 'Mike', 'D', 'Williams', 'Male', 2009, 1, 'mwilliams@sample.com', 'My Company', '1602730260_avatar.jpg', 1, '2020-10-15');
+(2, 'Name', 'of', 'alumini', 'Male', 2009, 1, 'alumini@sample.com', 'My Company', '1602730260_avatar.jpg', 1, '2020-10-15');
 
 -- --------------------------------------------------------
 
@@ -246,7 +245,7 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`id`, `name`, `username`, `password`, `type`, `auto_generated_pass`, `alumnus_id`) VALUES
 (1, 'Admin', 'admin', '0192023a7bbd73250516f069df18b500', 1, '', 0),
-(3, 'Mike Williams', 'mwilliams@sample.com', '3cc93e9a6741d8b40460457139cf8ced', 3, '', 2);
+(3, 'Name alumini', 'malumini@sample.com', '3cc93e9a6741d8b40460457139cf8ced', 3, '', 2);
 
 --
 -- Indexes for dumped tables
