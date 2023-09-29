@@ -1,7 +1,5 @@
--- phpMyAdmin SQL Dump
+-- phpMyAdmin SQL
 -- version 5.0.2
--- https://www.phpmyadmin.net/
---
 -- Host: 127.0.0.1
 -- Server version: 10.4.14-MariaDB
 -- PHP Version: 7.2.33
@@ -17,7 +15,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `alumni_db`
+-- created Database name: `alumni_db`
 --
 
 -- --------------------------------------------------------
